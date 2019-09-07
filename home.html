@@ -18,13 +18,24 @@
       background: #eee;
       font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
       font-size: 14px;
-      color:#000;
+      color:#fff;
       margin: 0;
       padding: 0;
     }
+ 
+    a{
+    	text-decoration: none;
+    	color: #fff;
+    	padding-bottom: 3px;
+    }
+
+    a.current{
+    	border-bottom: 2px solid #fff;
+    }
+
     .swiper-container {
       width: 100%;
-      height: 300px;
+/*       height: 400px; */
     }
     .swiper-slide {
       text-align: center;
@@ -45,35 +56,299 @@
       -webkit-align-items: center;
       align-items: center;
     }
+
+    .header{
+    	height: 90px;
+	    line-height: 50px;
+	    text-align: center;
+	    position: relative;
+	    z-index: 100;
+    }
+
+    .title{
+    	display: block;
+    	height: 40px;
+	    line-height: 40px;
+	    font-size: 18.768px;
+	    font-family: PingFangSC-Medium; 
+	    color: rgb(255, 255, 255);
+    }
+
+    #nowTime{
+    	position:fixed;
+    	bottom:10px;
+    	left:30%;
+    }
+
+    .headerUl{
+    	width: 100%;
+    	height: 50px;
+    	padding:0;
+    	margin:0;
+    }
+
+    .headerUl li{
+    	list-style: none;
+    	float:left;
+        width:24%;
+        font-size: 18px;
+        cursor: pointer;      
+    }
+
+    .holiday-content {
+	    font-family: MicrosoftYaHei;
+	    font-size: 16px;
+	    color: #7E808A;
+	    letter-spacing: 0.62px;
+	    line-height: 32px;
+	    padding-top: 2px;
+	    line-height: 24px;
+	}
+
+	.holiday-content p{
+		 margin: 8px 0;
+	}
+
+	 *{
+    margin:0;
+    padding: 0;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  .headerTitle{
+    font-size: 22px;
+    font-weight: 400;
+    min-height:50px;
+    font-family: -apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;
+    line-height: 1.4;
+    margin: 15px auto 0;
+    text-align: center;
+  }
+
+  .content{
+    padding: 10px;
+  }
+
+
+  .holiday-content{
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+   /*  color: #7E808A; */
+    color:#000;
+    letter-spacing: 0.62px;
+    line-height: 32px;
+    padding-top: 20px;
+    line-height: 24px;
+  }
+
+  .holiday-content p{
+     margin-bottom:10px;
+     text-indent: 10px;
+  }
+
+  .wrap{
+  	position: relative;
+  	z-index: 1;
+  	background-color: #FFFAF0;
+  }
+
+
+  .wrap>div h4 {
+    font-family: SourceHanSerifCN-SemiBold;
+    font-size: 24px;
+    color: #272831;
+    letter-spacing: 1.29px;
+  }  
+
+  .fix {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	background: #353535;
+	opacity: 1;
+	z-index: 88888;
+	}  
+
+  .tabClass{
+    position: relative;
+  	z-index: 1;
+  	background-color: #FFFAF0;
+  	color: #000;
+  	display: none;
+  }	 
+
+  .defaultHeight{
+  	height: 50px;
+  }
+
+   #gotop{
+
+	display:none;
+
+	width:55px;
+
+	height:55px;
+
+	position:fixed;
+
+	right:20px;
+
+	bottom:10px;
+
+	z-index: 999999;
+
+	background:url(img/toTop.svg) no-repeat -70px 0px; 
+
+	}
+
+	.titleBg{
+		border: 0px solid black; 
+		position: relative;
+		 height: 320.16px; 
+		 width: 414px;
+		 filter: blur(4px);
+		 background-image: url(img/tBg.webp); 
+		 background-size: cover; background-repeat: no-repeat; background-position: center center;
+	}
+
+	.remark{
+		position: relative;z-index: 1;background: #fff;opacity: 0.6;padding-bottom: 10px;margin-bottom: 5px;
+	}
+
   </style>
 </head>
 <body>
-  <!-- Swiper -->
-  <div class="swiper-container">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-          <img src = "img/jz/lb1_1.jpg" style="width: 100%" />
-      </div>
-      <div class="swiper-slide">
-          <img src = "img/jz/lb1_2.jpg" style="width: 100%" />
-      </div>
-      <div class="swiper-slide">
-          <img src = "img/jz/lb1_3.jpg" style="width: 100%" />
-      </div>
-      <div class="swiper-slide">
-          <img src = "img/jz/lb1_4.jpg" style="width: 100%" />
-      </div>
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-  </div>
+<div id="gotop"></div>
+<div style="width:100%">
+			<div class="header">
+				<span class="title">艺生活(Art Life)</span>
+				<span id="nowTime"></span>
+
+                <div class="one">
+                    <ul class="headerUl">
+                        <li><a href="#index" class="current">首  页</a></li>
+                        <li><a href="#home">家居装饰</a></li>
+                        <li><a href="#shop">店铺装饰</a></li>
+                        <li><a href="#kitchen">社交厨房</a></li>
+                    </ul> 
+                </div>
+
+			</div>
+         
+			<div class="tabClass" id="index" style="display: block;">
+                <div style="border: 0px solid black; position: fixed;top: 0px; left: 0px; overflow: hidden;"><div class="titleBg"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 0px; left: 0px; width: 414px; height: 88.32px; background-color: rgba(0, 0, 0, 0.6);"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 88.32px; left: 0px; width: 414px; height: 187.68px; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 205.344px; left: 0px; width: 414px; height: 115.92px; background-image: linear-gradient(rgba(242, 242, 242, 0), rgb(242, 242, 242));"></div></div>
+
+			    <div class="remark">
+		             <div class="holiday-content" style="padding-top: 5px;">
+		                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;三门峡南山脚下,有一个神秘的小店。</p>
+		                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;它,是家居装饰界的典范,是外贸工艺品者的自留地, 更是海淘购物者的天堂。</p>
+		                 <p style="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;置身此地,仿若进入了另外一个世界。让我们一起去看看吧！</p>
+		             </div>
+	            </div>
+
+
+			  <!-- Swiper -->
+			    <div class="swiper-container">
+			      <div class="swiper-wrapper">
+			         <div class="swiper-slide">
+			 		    <img src = "img/jz/lb1_1.jpg" style="width: 100%" />
+			 		</div>
+			 		<div class="swiper-slide">
+			 		    <img src = "img/jz/lb1_2.jpg" style="width: 100%" />
+			 		</div>
+			 		<div class="swiper-slide">
+			 		    <img src = "img/jz/lb1_3.jpg" style="width: 100%" />
+			 		</div>
+			 		<div class="swiper-slide">
+			 		    <img src = "img/jz/lb1_4.jpg" style="width: 100%" />
+			 		</div> 
+				  </div> 
+			     <!-- Add Pagination -->
+			     <div class="swiper-pagination"></div>
+			    </div>
+
+	            <div class="wrap">
+		           <div>
+		               <h4 style="padding-top: 20px;">精品展示区</h4>
+		               <div class="holiday-content">
+		                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进入小店,一眼望去,艺术与花草的结合,让人沉浸其中，感叹艺术之美。</p> 
+		                    <img src="http://artlife.fun/rht/image/small/4.jpg">
+
+		                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;环顾四望,各种外贸工艺品琳琅满目,却又错落有致。</p>  
+		                    <img src="http://artlife.fun/rht/image/small/3.jpg"> 
+		                    <img src="http://artlife.fun/rht/image/small/2.jpg">     
+		                    <img class="preloadImg" src="http://artlife.fun/rht/image/small/5.jpg"> 
+		                    <img class="preloadImg" src="http://artlife.fun/rht/image/small/54.jpg">
+
+		                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;墙角边,楼梯口,每一处都让人忍不住驻足。用心,带来了美。</p>   
+		                   <img class="preloadImg" src="http://artlife.fun/rht/image/small/52.jpg">
+		                   <img class="preloadImg" src="http://artlife.fun/rht/image/small/53.jpg">
+
+		               </div>
+		           </div>
+
+		            <div>
+		               <h4 style="margin-top: 20px;">海淘精品区</h4>
+		               <div class="holiday-content">
+		                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 家中和店中摆放最多的饰品,可以说是陶瓷漆器了。花瓶、水杯、碗盘等都可以是陶瓷漆器一类的,其不仅可用作装饰,更有其使用价值。</p> 
+		                   <img class="preloadImg" src="http://artlife.fun/rht/image/small/6.jpg">
+		                   <img class="preloadImg" src="http://artlife.fun/rht/image/small/7.jpg">
+
+		                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;镜子和钟表是家中最常用的装饰品,而这里,入目所及,种类齐全,可以尽情挑选。</p>   
+		                   <img class="preloadImg" src="http://artlife.fun/rht/image/small/8.jpg">
+		                   <img class="preloadImg" src="http://artlife.fun/rht/image/small/10.jpg">
+
+		                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;壁画,是墙壁上的艺术,在给家中增添几分艺术的气息的同时，还增添了几分格调。</p>   
+		                   <img class="preloadImg" src="http://artlife.fun/rht/image/small/9.jpg">          
+		               </div>
+		           </div>
+
+		           <div class="holiday-content" style="position: relative;">          
+		            <p style="display: inline-block;">联系地址：三门峡市上阳南路宝迪量贩式KTV后面。 </p> 
+		            <p style="display: inline-block;">微信：tingtinghkx</p> 
+		           </div>         
+		       </div> 
+			</div>
+
+			<div class="tabClass" id="home">
+                 <div style="border: 0px solid black; position: fixed;top: 0px; left: 0px; overflow: hidden;"><div class="titleBg"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 0px; left: 0px; width: 414px; height: 88.32px; background-color: rgba(0, 0, 0, 0.6);"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 88.32px; left: 0px; width: 414px; height: 187.68px; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 205.344px; left: 0px; width: 414px; height: 115.92px; background-image: linear-gradient(rgba(242, 242, 242, 0), rgb(242, 242, 242));"></div></div>
+
+			    <div class="remark">
+		             <div class="holiday-content" style="padding-top: 5px;">
+		                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11三门峡南山脚下,有一个神秘的小店。</p>
+		                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11它,是家居装饰界的典范,是外贸工艺品者的自留地, 更是海淘购物者的天堂。</p>
+		                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;11置身此地,仿若进入了另外一个世界。让我们一起去看看吧！</p>
+		             </div>
+	            </div>
+			</div>
+
+			<div class="tabClass" id="shop">
+                 <div style="border: 0px solid black; position: fixed;top: 0px; left: 0px; overflow: hidden;"><div class="titleBg"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 0px; left: 0px; width: 414px; height: 88.32px; background-color: rgba(0, 0, 0, 0.6);"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 88.32px; left: 0px; width: 414px; height: 187.68px; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 205.344px; left: 0px; width: 414px; height: 115.92px; background-image: linear-gradient(rgba(242, 242, 242, 0), rgb(242, 242, 242));"></div></div>
+
+                 <div class="remark">
+		             <div class="holiday-content" style="padding-top: 5px;">
+		                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22三门峡南山脚下,有一个神秘的小店。</p>
+		                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22它,是家居装饰界的典范,是外贸工艺品者的自留地, 更是海淘购物者的天堂。</p>
+		                 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;22置身此地,仿若进入了另外一个世界。让我们一起去看看吧！</p>
+		             </div>
+	            </div>
+			</div>
+
+			<div class="tabClass" id="kitchen">
+                 <div style="border: 0px solid black; position: fixed;top: 0px; left: 0px; overflow: hidden;"><div class="titleBg"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 0px; left: 0px; width: 414px; height: 88.32px; background-color: rgba(0, 0, 0, 0.6);"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 88.32px; left: 0px; width: 414px; height: 187.68px; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 205.344px; left: 0px; width: 414px; height: 115.92px; background-image: linear-gradient(rgba(242, 242, 242, 0), rgb(242, 242, 242));"></div></div>
+			</div>
+
 
   <!-- Swiper JS -->
   <script src="dist/js/swiper.min.js"></script>
-
+  <script src="dist/js/jquery.min.js"></script>
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper('.swiper-container', {
+    var swiper1 = new Swiper('.swiper-container', {
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
@@ -85,6 +360,113 @@
         clickable: true,
       }
     });
+
+    var swiper2 = new Swiper('.swiper-container2', {
+      slidesPerView: 3,
+      spaceBetween: 5
+    });
+
+
+    function showLeftTime()
+		{
+		var now=new Date();
+		var year=now.getFullYear();
+		var month=now.getMonth()+1;
+		if(month<10){
+		month='0'+month;
+		}
+		var day=now.getDate();
+		if(day<10){
+		day='0'+day;
+		}
+		var hours=now.getHours();
+		if(hours<10){
+		hours='0'+hours;
+		}
+		var minutes=now.getMinutes();
+		if(minutes<10){
+		minutes='0'+minutes;
+		}
+		var seconds=now.getSeconds();
+		if(seconds<10){
+		seconds='0'+seconds;
+		}
+		var showTime=year+"年"+month+"月"+day+"日 "+hours+":"+minutes+":"+seconds+"";
+		document.getElementById("nowTime").innerHTML = showTime;
+		//一秒刷新一次显示时间
+		var timeID=setTimeout(showLeftTime,1000);
+		}
+
+		showLeftTime();
+
+        var status = 0;
+		$(".headerUl li").on("click",function(){
+			$(".headerUl a").removeClass("current");        
+            $(this).find("a").addClass("current");
+			var index = $(this).index();
+			console.log(index);
+			$(".tabClass").hide();
+            $(".tabClass").eq(index).show();      
+            status = 1;    
+		});
+
+
+		$(function(){
+
+			var nav=$(".one"); //得到导航对象
+
+			var win=$(window); //得到窗口对象
+
+			var sc=$(document);//得到document文档对象。
+
+			win.scroll(function(){
+
+			if(win.scrollTop()>=50){
+
+               if((status-0) && $(".current").text().toString().indexOf("首") != -1 ){
+                   win.scrollTop(0)
+               }else{
+               	  nav.addClass("fix");
+               }
+                status = 0;   
+
+			}else{
+                 nav.removeClass("fix");	
+                 status = 0;   		  
+			}
+		  });
+		});
+
+
+		 $(function(){
+		     //点击回到顶部的元素
+		     $("#gotop").click(function(e) {
+		             //以1秒的间隔返回顶部
+		             $('body,html').animate({scrollTop:0},500);
+		    });
+
+		     $("#gotop").mouseover(function(e) {
+
+		         $(this).css("background","url(img/toTop.svg) no-repeat 0px 0px");
+
+		    });
+
+		     $("#gotop").mouseout(function(e) {
+
+		         $(this).css("background","url(img/toTop.svg) no-repeat -70px 0px");
+
+		    });
+
+           $(window).scroll(function(e) {
+		         if($(window).scrollTop()>600){
+		         	  $("#gotop").fadeIn(1000);//以1秒的间隔渐显id=gotop的元素
+		         	  $("#gotop").css("background","url('img/toTop.svg') 0px 0px no-repeat");
+		         } else{
+		              $("#gotop").fadeOut(1000);//以1秒的间隔渐隐id=gotop的元素
+		         }
+
+		    });
+         });
   </script>
 </body>
 </html>
