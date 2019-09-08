@@ -29,7 +29,7 @@
 	        $.preload(imgs, {
 	            // 是否有序加载
 	            order: false,
-	            minTimer: 3000,
+	            minTimer: 0,
 	            //每加载完一张执行的方法
 	            each: function (count) {
 	            	var percent = Math.round((count+1) / len * 100) + '%';
