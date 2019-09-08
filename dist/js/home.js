@@ -16,11 +16,7 @@
               "img/jz/lb1_1.jpg",
               "img/jz/lb1_2.jpg",
               "img/jz/lb1_3.jpg",
-              "img/jz/lb1_4.jpg",
-              "img/small/sj1.jpg",
-              "img/small/sj2.jpg",
-              "img/small/sj3.jpg",
-              "img/small/sj4.jpg"
+              "img/jz/lb1_4.jpg"       
             ];
 
 	        var index = 0,
@@ -36,7 +32,6 @@
 	            minTimer: 3000,
 	            //每加载完一张执行的方法
 	            each: function (count) {
-	               console.log(count);
 	               $(".preloadImg").eq(count).attr("src", imgs[count]);
 
 	            },
