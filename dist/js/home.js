@@ -32,6 +32,9 @@
 	            minTimer: 3000,
 	            //每加载完一张执行的方法
 	            each: function (count) {
+	            	var percent = Math.round((count+1) / len * 100) + '%';
+                    progressInner.css("width",percent);
+                    progressTxt.html(percent);
 	               $(".preloadImg").eq(count).attr("src", imgs[count]);
 
 	            },
@@ -114,7 +117,7 @@
 			});
 		},
 		lazyImg:function(){
-		  $("img.lazy").lazyload({effect: "fadeIn"});
+		  $("img.lazy").lazyload({ placeholder : "img/grey.gif",effect: "fadeIn"});
 		},
 		swiperFun:function(){
 			var swiper1 = new Swiper('.swiper-container', {
