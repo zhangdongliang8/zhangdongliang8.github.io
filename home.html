@@ -338,14 +338,14 @@
                 <div style="border: 0px solid black; position: fixed;top: 0px; left: 0px; overflow: hidden;width: 100%;"><div class="titleBg"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 0px; left: 0px; width: 100%; height: 88.32px; background-color: rgba(0, 0, 0, 0.6);"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 88.32px; left: 0px; width: 100%; height: 187.68px; background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));"></div><div style="border: 0px solid black; position: absolute; box-sizing: border-box; display: flex; -webkit-box-orient: vertical; flex-direction: column; align-content: flex-start; flex-shrink: 0; top: 205.344px; left: 0px; width: 100%; height: 115.92px; background-image: linear-gradient(rgba(242, 242, 242, 0), rgb(242, 242, 242));"></div></div>
 			    <div class="remark">
 				     <div class="holiday-content" style="padding-top: 5px;">
-					 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;社交厨房：顾名思义,其实是将烹饪区域与餐厅进行结合，所形成的空间让人能够在此停留、互动交流。</p>
-					 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;它不仅仅具备单纯的宴会或接待亲友访客的功能，更重要的是，能够让家庭成员在此进行互动，以此来链接家人间的情感。</p>
+                                         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 信息时代，我们不再仅仅满足于线上虚拟交流，开始更加渴望更多元化的面对面的沟通，“社交厨房”于是应运而生。</p>
+					 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;社交厨房,将烹饪区域与餐厅进行结合，所形成的空间让人能够在此停留、互动交流。它不仅仅具备单纯的宴会或接待亲友访客的功能，更重要的是，能够让家庭成员在此进行互动，以此来增进家人间的情感。
 					 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;艺生活的社交厨房是什么样子呢？</p>
 					 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Let's go ！</p>
 				     </div>
 			    </div>
 		             <!-- Swiper -->
-			    <div class="swiper-container">
+			    <div class="swiper-container3">
 			      <div class="swiper-wrapper">
 			         <div class="swiper-slide">
 			 		    <img src = "img/small/sj1.jpg" style="width: 100%" />
@@ -392,6 +392,20 @@
     var swiper2 = new Swiper('.swiper-container2', {
       slidesPerView: 3,
       spaceBetween: 5
+    });
+
+
+    var swiper3 = new Swiper('.swiper-container3', {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      }
     });
 
 
