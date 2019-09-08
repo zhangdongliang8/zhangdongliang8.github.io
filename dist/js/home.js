@@ -13,10 +13,10 @@
       	preloadImg:function(){
 
             var imgs = [
-              "img/jz/xt/lb1_1.jpg",
-              "img/jz/xt/lb1_2.jpg",
-              "img/jz/xt/lb1_3.jpg",
-              "img/jz/xt/lb1_4.jpg"        
+              "img/jz/lb1_1.jpg",
+              "img/jz/lb1_2.jpg",
+              "img/jz/lb1_3.jpg",
+              "img/jz/lb1_4.jpg"        
             ];
 
 	        var index = 0,
