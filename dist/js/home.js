@@ -13,10 +13,10 @@
       	preloadImg:function(){
 
             var imgs = [
-              "img/jz/lb1_1.jpg",
-              "img/jz/lb1_2.jpg",
-              "img/jz/lb1_3.jpg",
-              "img/jz/lb1_4.jpg"       
+              "img/jz/xt/lb1_1.jpg",
+              "img/jz/xt/lb1_2.jpg",
+              "img/jz/xt/lb1_3.jpg",
+              "img/jz/xt/lb1_4.jpg"        
             ];
 
 	        var index = 0,
@@ -29,7 +29,7 @@
 	        $.preload(imgs, {
 	            // 是否有序加载
 	            order: false,
-	            minTimer: 0,
+	            minTimer: 3000,
 	            //每加载完一张执行的方法
 	            each: function (count) {
 	            	var percent = Math.round((count+1) / len * 100) + '%';
