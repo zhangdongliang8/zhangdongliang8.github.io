@@ -346,7 +346,7 @@
 		             <!-- Swiper -->
 			    <div class="swiper-container3">
 			      <div class="swiper-wrapper">
-			         <div class="swiper-slide">
+			                <div class="swiper-slide">
 			 		    <img src = "img/small/sj1.jpg" style="width: 100%" />
 			 		</div>
 			 		<div class="swiper-slide">
@@ -360,10 +360,10 @@
 			 		</div> 
 				  </div> 
 			     <!-- Add Pagination -->
-			     <div class="swiper-pagination3"></div>
+			     <div class="swiper-pagination"></div>
 			    </div>		
 	                </div>
-
+	            </div>
 			<audio id="audio" autoplay='autoplay' loop='loop'>
 	          <source src="https://mp3.itingwa.com/2018-10/05/20181005012121-OTA2NzU4.mp3" type="audio/ogg">
 	          <source src="https://mp3.itingwa.com/2018-10/05/20181005012121-OTA2NzU4.mp3" type="audio/mpeg">
@@ -383,7 +383,7 @@
         disableOnInteraction: false,
       },
       pagination: {
-        el: '.swiper-pagination',
+        el: '.swiper-container .swiper-pagination',
         clickable: true,
       }
     });
@@ -402,7 +402,7 @@
         disableOnInteraction: false,
       },
       pagination: {
-        el: '.swiper-pagination3',
+        el: '.swiper-container .swiper-pagination',
         clickable: true,
       }
     });
