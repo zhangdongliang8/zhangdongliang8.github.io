@@ -13,10 +13,10 @@
       	preloadImg:function(){
 
             var imgs = [
-              "img/jz/lb1_1.jpg",
-              "img/jz/lb1_2.jpg",
-              "img/jz/lb1_3.jpg",
-              "img/jz/lb1_4.jpg"        
+              "img/jz/xt/lb1_1.jpg",
+              "img/jz/xt/lb1_2.jpg",
+              "img/jz/xt/lb1_3.jpg",
+              "img/jz/xt/lb1_4.jpg"        
             ];
 
 	        var index = 0,
@@ -117,7 +117,7 @@
 			});
 		},
 		lazyImg:function(){
-		  $("img.lazy").lazyload({  threshold : 200,placeholder : "img/grey.gif",effect: "fadeIn"});
+		  $("img.lazy").lazyload({  threshold : 50,placeholder : "img/grey.gif",effect: "fadeIn"});
 		},
 		swiperFun:function(){
 			var swiper1 = new Swiper('.swiper-container', {
