@@ -287,38 +287,35 @@
 			               <h4 style="padding-top: 15px;">精品展示区</h4>
 			               <div class="holiday-content">
 			                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进入小店,一眼望去,艺术与花草的结合,让人沉浸其中，感叹艺术之美。</p> 
-			                    <img class="preloadImg" />
+			                     <img class="lazy" data-original="img/small/4.jpg">
 
 			                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;环顾四望,各种外贸工艺品琳琅满目,却又错落有致。</p>  
-			                    <img class="preloadImg" />
-			                    <img class="preloadImg" /> 
-			                    <img class="preloadImg" />
+								 <img class="lazy" data-original="img/small/3.jpg">
+								 <img class="lazy" data-original="img/small/2.jpg">
+								 <img class="lazy" data-original="img/small/5.jpg">
 
 			                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;墙角边,楼梯口,每一处都让人忍不住驻足。用心,带来了美。</p>   
-			                   <img  class="preloadImg" />
-			                   <img  class="preloadImg" />
-
+			                     <img class="lazy" data-original="img/small/54.jpg">
+								 <img class="lazy" data-original="img/small/52.jpg">
+								 <img class="lazy" data-original="img/small/53.jpg">
 			               </div>
 			           </div>
 
 			            <div>
 			               <h4 style="margin-top: 20px;">海淘精品区</h4>
 			               <div class="holiday-content">
-			                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 家中和店中摆放最多的饰品,可以说是陶瓷漆器了。花瓶、水杯、碗盘等都可以是陶瓷漆器一类的,其不仅可用作装饰,更有其使用价值。</p> 
-			                   <img   class="preloadImg" />
-			                   <img   class="preloadImg" />
+			                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 家中和店中摆放最多的饰品,可以说是陶瓷漆器了。花瓶、水杯、碗盘等都可以是陶瓷漆器一类的,其不仅可用作装饰,更有其使用价值。</p> 	                     
+								 <img class="lazy" data-original="img/small/6.jpg">
+								 <img class="lazy" data-original="img/small/7.jpg">
 
 			                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;镜子和钟表是家中最常用的装饰品,而这里,入目所及,种类齐全,可以尽情挑选。</p>   
-			                   <img   class="preloadImg" />
-			                   <img   class="preloadImg" />
+			                     <img class="lazy" data-original="img/small/8.jpg">
+								 <img class="lazy" data-original="img/small/10.jpg">
 
 			                   <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;壁画,是墙壁上的艺术,在给家中增添几分艺术的气息的同时，还增添了几分格调。</p>   
-			                   <img   class="preloadImg" />          
+			                     <img class="lazy" data-original="img/small/9.jpg">         
 			               </div>
-			           </div>
-
-
-			           <span style="color: rgb(255, 76, 0); font-size: 20px; line-height: 32px;display: inline-block;width: 100%;text-align:center; position:absolute;top:215px; "> <img style="line-height: 1.6;  width: 100px !important; visibility: visible !important;"   class="preloadImg"></span>          
+			           </div>      
 			       </div>
 
 			       <audio id="audio" autoplay='autoplay' loop='loop'>
@@ -369,16 +366,16 @@
 			    <div class="swiper-container3">
 			      <div class="swiper-wrapper">
 			         <div class="swiper-slide">
-			 		    <img src = "img/small/sj1.jpg" style="width: 100%" />
+			 		    <img  class="preloadImg" style="width: 100%"  />
 			 		</div>
 			 		<div class="swiper-slide">
-			 		    <img src = "img/small/sj2.jpg" style="width: 100%" />
+			 		    <img  class="preloadImg" style="width: 100%"  />
 			 		</div>
 			 		<div class="swiper-slide">
-			 		    <img src = "img/small/sj3.jpg" style="width: 100%" />
+			 		    <img  class="preloadImg" style="width: 100%"  />
 			 		</div>
 			 		<div class="swiper-slide">
-			 		    <img src = "img/small/sj4.jpg" style="width: 100%" />
+			 		    <img  class="preloadImg" style="width: 100%" />
 			 		</div> 
 				  </div> 
 			     <!-- Add Pagination -->
@@ -392,193 +389,10 @@
 	        </audio> 
    
 </div>
-  <!-- Swiper JS -->
   <script src="dist/js/swiper.min.js"></script>
   <script src="dist/js/jquery.min.js"></script>
-      <script src="dist/js/preload.js"></script>
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper1 = new Swiper('.swiper-container', {
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      }
-    });
-
-    var swiper2 = new Swiper('.swiper-container2', {
-      slidesPerView: 3,
-      spaceBetween: 5
-    });
-   
-    function showLeftTime()
-		{
-		var now=new Date();
-		var year=now.getFullYear();
-		var month=now.getMonth()+1;
-		if(month<10){
-		month='0'+month;
-		}
-		var day=now.getDate();
-		if(day<10){
-		day='0'+day;
-		}
-		var hours=now.getHours();
-		if(hours<10){
-		hours='0'+hours;
-		}
-		var minutes=now.getMinutes();
-		if(minutes<10){
-		minutes='0'+minutes;
-		}
-		var seconds=now.getSeconds();
-		if(seconds<10){
-		seconds='0'+seconds;
-		}
-		var showTime=year+"年"+month+"月"+day+"日 "+hours+":"+minutes+":"+seconds+"";
-		document.getElementById("nowTime").innerHTML = showTime;
-		//一秒刷新一次显示时间
-		var timeID=setTimeout(showLeftTime,1000);
-		}
-
-		showLeftTime();
-
-        var status = 0;
-		$(".headerUl li").on("click",function(){
-			$(".headerUl a").removeClass("current");        
-            $(this).find("a").addClass("current");
-			var index = $(this).index();
-			console.log(index);
-			$(".tabClass").hide();
-            $(".tabClass").eq(index).show();      
-            status = 1;    
-
-           if(index == 3){
-           	var swiper3 = new Swiper('.swiper-container3', {
-		      spaceBetween: 30,
-		      centeredSlides: true,
-		      autoplay: {
-		        delay: 2500,
-		        disableOnInteraction: false,
-		      },
-		      pagination: {
-		        el: '.swiper-pagination3',
-		        clickable: true,
-		      }
-		    });
-           }
-
-		});
-
-
-		$(function(){
-
-			var nav=$(".one"); //得到导航对象
-
-			var win=$(window); //得到窗口对象
-
-			var sc=$(document);//得到document文档对象。
-
-			win.scroll(function(){
-
-			if(win.scrollTop()>=50){
-
-               if((status-0)){
-                   win.scrollTop(0)
-               }else{
-               	  nav.addClass("fix");
-               }
-                status = 0;   
-
-			}else{
-                if((status-0)){
-                   win.scrollTop(0)
-                }
-                 nav.removeClass("fix");	
-                 status = 0;   		  
-			}
-		  });
-		});
-
-
-		 $(function(){
-		     //点击回到顶部的元素
-		     $("#gotop").click(function(e) {
-		             //以1秒的间隔返回顶部
-		             $('body,html').animate({scrollTop:0},500);
-		    });
-
-		     $("#gotop").mouseover(function(e) {
-
-		         $(this).css("background","url(img/toTop.svg) no-repeat 0px 0px");
-
-		    });
-
-		     $("#gotop").mouseout(function(e) {
-
-		         $(this).css("background","url(img/toTop.svg) no-repeat -70px 0px");
-
-		    });
-
-           $(window).scroll(function(e) {
-		         if($(window).scrollTop()>600){
-		         	  $("#gotop").fadeIn(1000);//以1秒的间隔渐显id=gotop的元素
-		         	  $("#gotop").css("background","url('img/toTop.svg') 0px 0px no-repeat");
-		         } else{
-		              $("#gotop").fadeOut(1000);//以1秒的间隔渐隐id=gotop的元素
-		         }
-
-		    });
-         });
-
-
-          var imgs = [
-              "img/jz/lb1_1.jpg",
-              "img/jz/lb1_2.jpg",
-              "img/jz/lb1_3.jpg",
-              "img/jz/lb1_4.jpg",
-	          "img/small/4.jpg",
-	          "img/small/2.jpg",
-              "img/small/5.jpg",
-              "img/small/54.jpg",
-              "img/small/52.jpg",
-              "img/small/53.jpg",
-              "img/small/6.jpg",
-              "img/small/7.jpg",
-              "img/small/8.jpg",
-              "img/small/10.jpg",
-              "img/small/9.jpg",
-              "img/small/19.jpg"
-            ];
-
-        var index = 0,
-            len = imgs.length,
-            progressInner = $(".xl-progress__inner"),
-            progressTxt = $('.xl-progress__txt');
-
-
-        //图片预加载
-        $.preload(imgs, {
-            // 是否有序加载
-            order: false,
-            minTimer: 3000,
-            //每加载完一张执行的方法
-            each: function (count) {
-               console.log(count);
-               $(".preloadImg").eq(count).attr("src", imgs[count]);
-
-            },
-            // 加载完所有的图片执行的方法
-            end: function () {
-                $('.loading').hide();
-            }
-        });
-
-  </script>
+  <script src="dist/js/preload.js"></script>
+  <script src="dist/js/jquery.lazyload.min.js"></script>
+  <script src="dist/js/home.js"></script>
 </body>
 </html>
