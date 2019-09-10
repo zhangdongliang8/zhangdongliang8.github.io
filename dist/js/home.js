@@ -5,7 +5,8 @@
       		this.toTop();
       		this.tabClick();         //tab选项切换功能
       		this.lazyImg();          //图片懒加载功能
-      		this.swiperFun();        //图片轮播功能             
+      		this.swiperFun();        //图片轮播功能
+					this.cfImgLoad();        //厨房轮播图片预加载
       	},
       	constant:{
            status:0
@@ -44,29 +45,50 @@
 	            }
 	        });
 	    },
+			cfImgLoad:function(){
+        var arr = [
+          "img/cf/cf2.jpg",
+          "img/cf/cf3.jpg",
+          "img/cf/cf4.jpg",
+          "img/cf/cf5.jpg"
+        ];
+        var imgs = [];
+        for(var j=0;j<arr.length;j++){
+            imgs[j] = new Image();
+            imgs[j].src = arr[j];
+        }
+
+        setTimeout(function(){
+          var _imgArr = document.querySelectorAll(".preloadImg_cf");
+          console.log(_imgArr);
+          for(var i=0;i<arr.length;i++){
+            _imgArr[i].setAttribute("src", imgs[i].src);
+          }
+        },1000);
+			},
 	    scrollFixHeader:function(){
 	    	var that = this;
 	    	var nav=$(".one"); //得到导航对象
-			var win=$(window); //得到窗口对象
-			var sc=$(document);//得到document文档对象。
-			win.scroll(function(){
-			if(win.scrollTop()>=50){
+			  var win=$(window); //得到窗口对象
+			  var sc=$(document);//得到document文档对象。
+			  win.scroll(function(){
+			  if(win.scrollTop()>=50){
                if((that.constant.status - 0)){
                    win.scrollTop(0)
                }else{
                	  nav.addClass("fix");
                }
                 that.constant.status = 0;   
-			}else{
+			  }else{
                 if((that.constant.status-0)){
                    win.scrollTop(0)
                 }
                  nav.removeClass("fix");	
                   that.constant.status = 0;   		  
-			}
+			  }
 		  });
 		},
-		toTop:function(){
+		  toTop:function(){
 		    $("#gotop").click(function(e) {
 	             //以1秒的间隔返回顶部
 	             $('body,html').animate({scrollTop:0},500);
@@ -89,30 +111,30 @@
 		         }
 		    });
 		},
-		tabClick:function(){
-			var that = this;
-			$(".headerUl li").on("click",function(){
-				$(".headerUl a").removeClass("current");        
-	            $(this).find("a").addClass("current");
-				var index = $(this).index();
-				console.log(index);
-				$(".tabClass").hide();
-	            $(".tabClass").eq(index).show();      
-	            that.constant.status = 1;    
+		  tabClick:function(){
+			  var that = this;
+			  $(".headerUl li").on("click",function(){
+			  	$(".headerUl a").removeClass("current");
+			  	   $(this).find("a").addClass("current");
+				     var index = $(this).index();
+				     console.log(index);
+				     $(".tabClass").hide();
+				     $(".tabClass").eq(index).show();
+				     that.constant.status = 1;
 
 	           if(index == 3){
-	           	var swiper3 = new Swiper('.swiper-container3', {
-			      spaceBetween: 30,
-			      centeredSlides: true,
-			      autoplay: {
-			        delay: 2500,
-			        disableOnInteraction: false,
-			      },
-			      pagination: {
-			        el: '.swiper-pagination3',
-			        clickable: true,
-			      }
-			    });
+               var swiper3 = new Swiper('.swiper-container3', {
+                 slidesPerView: 3,
+                 spaceBetween: 10,
+                 autoplay: {
+                   delay: 3000,
+                   disableOnInteraction: false,
+                 },
+                 pagination: {
+                   el: '.swiper-pagination3',
+                   clickable: true,
+                 },
+               });
 	           }
 			});
 		},
