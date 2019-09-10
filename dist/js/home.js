@@ -2,7 +2,7 @@
       	init:function(){
       		this.preloadImg();       //预加载图片
       		this.scrollFixHeader();  //滚动后头部固定功能
-      		this.toTop();
+      		this.toTop();            //回到顶部功能
       		this.tabClick();         //tab选项切换功能
       		this.lazyImg();          //图片懒加载功能
       		this.swiperFun();        //图片轮播功能
