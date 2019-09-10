@@ -117,7 +117,7 @@
 			});
 		},
 		lazyImg:function(){
-		  $("img.lazy").lazyload({  threshold : 50,placeholder : "img/grey.gif",effect: "fadeIn"});
+		  $("img.lazy").lazyload({  threshold : 50,placeholder : "img/white.gif",effect: "fadeIn"});
 		},
 		swiperFun:function(){
 			var swiper1 = new Swiper('.swiper-container', {
