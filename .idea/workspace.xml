@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab743da5-835c-4605-bbcc-7cdb0441d654" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/dzjj.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kitchen.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/house.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kitchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/kitchen.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -146,8 +140,8 @@
       <file leaf-file-name="kitchen.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kitchen.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="929">
-              <caret line="89" column="8" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
+            <state relative-caret-position="217">
+              <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -197,8 +191,8 @@
       <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="62">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#370#400#0" />
                 <element signature="e#1981#2602#0" />
@@ -236,8 +230,8 @@
         <option value="$PROJECT_DIR$/dzjj.html" />
         <option value="$PROJECT_DIR$/house.html" />
         <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/kitchen.html" />
         <option value="$PROJECT_DIR$/shop.html" />
+        <option value="$PROJECT_DIR$/kitchen.html" />
         <option value="$PROJECT_DIR$/dist/js/home.js" />
       </list>
     </option>
@@ -342,12 +336,12 @@
       <updated>1568102441398</updated>
       <workItem from="1568102443458" duration="5327000" />
       <workItem from="1568122794883" duration="10834000" />
-      <workItem from="1568167167218" duration="4625000" />
+      <workItem from="1568167167218" duration="4953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20786000" />
+    <option name="totallyTimeSpent" value="21114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -360,7 +354,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.1971831" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.18743229" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -784,21 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kitchen.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="89" column="8" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="8" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/house.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -814,10 +793,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/kitchen.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="25" column="56" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dist/js/home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="62">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#370#400#0" />
             <element signature="e#1981#2602#0" />
