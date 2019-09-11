@@ -67,7 +67,7 @@ var pageFun = {
       for(var i=0;i<arr.length;i++){
         _imgArr[i].setAttribute("src", imgs[i].src);
       }
-    },1000);
+    },5000);
   },
   scrollFixHeader:function(){
     var that = this;
