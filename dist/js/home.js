@@ -3,70 +3,12 @@
       		this.preloadImg();       //预加载图片
       		this.scrollFixHeader();  //滚动后头部固定功能
       		this.toTop();            //回到顶部功能
-      		this.tabClick();         //tab选项切换功能
       		this.lazyImg();          //图片懒加载功能
-      		this.swiperFun();        //图片轮播功能
-					this.cfImgLoad();        //厨房轮播图片预加载
       	},
       	constant:{
            status:0
       	},
-      	preloadImg:function(){
-
-            var imgs = [
-              "img/jz/xt/lb1_1.jpg",
-              "img/jz/xt/lb1_2.jpg",
-              "img/jz/xt/lb1_3.jpg",
-              "img/jz/xt/lb1_4.jpg"        
-            ];
-
-	        var index = 0,
-	            len = imgs.length,
-	            progressInner = $(".xl-progress__inner"),
-	            progressTxt = $('.xl-progress__txt');
-
-
-	        //图片预加载
-	        $.preload(imgs, {
-	            // 是否有序加载
-	            order: false,
-	            minTimer: 3000,
-	            //每加载完一张执行的方法
-	            each: function (count) {
-	            	var percent = Math.round((count+1) / len * 100) + '%';
-                    progressInner.css("width",percent);
-                    progressTxt.html(percent);
-	               $(".preloadImg").eq(count).attr("src", imgs[count]);
-
-	            },
-	            // 加载完所有的图片执行的方法
-	            end: function () {
-	                $('.loading').hide();
-	            }
-	        });
-	    },
-			cfImgLoad:function(){
-        var arr = [
-          "img/cf/cf2.jpg",
-          "img/cf/cf3.jpg",
-          "img/cf/cf4.jpg",
-          "img/cf/cf5.jpg"
-        ];
-        var imgs = [];
-        for(var j=0;j<arr.length;j++){
-            imgs[j] = new Image();
-            imgs[j].src = arr[j];
-        }
-
-        setTimeout(function(){
-          var _imgArr = document.querySelectorAll(".preloadImg_cf");
-          console.log(_imgArr);
-          for(var i=0;i<arr.length;i++){
-            _imgArr[i].setAttribute("src", imgs[i].src);
-          }
-        },1000);
-			},
-	    scrollFixHeader:function(){
+	      scrollFixHeader:function(){
 	    	var that = this;
 	    	var nav=$(".one"); //得到导航对象
 			  var win=$(window); //得到窗口对象
@@ -88,7 +30,7 @@
 			  }
 		  });
 		},
-		  toTop:function(){
+		    toTop:function(){
 		    $("#gotop").click(function(e) {
 	             //以1秒的间隔返回顶部
 	             $('body,html').animate({scrollTop:0},500);
@@ -111,52 +53,10 @@
 		         }
 		    });
 		},
-		  tabClick:function(){
-			  var that = this;
-			  $(".headerUl li").on("click",function(){
-			  	$(".headerUl a").removeClass("current");
-			  	   $(this).find("a").addClass("current");
-				     var index = $(this).index();
-				     console.log(index);
-				     $(".tabClass").hide();
-				     $(".tabClass").eq(index).show();
-				     that.constant.status = 1;
-
-	           if(index == 3){
-               var swiper3 = new Swiper('.swiper-container3', {
-                 slidesPerView: 3,
-                 spaceBetween: 10,
-                 autoplay: {
-                   delay: 3000,
-                   disableOnInteraction: false,
-                 }
-               });
-	           }
-			});
-		},
-		lazyImg:function(){
-		  $("img.lazy").lazyload({  threshold : 50,placeholder : "img/white.gif",effect: "fadeIn"});
-		},
-		swiperFun:function(){
-			var swiper1 = new Swiper('.swiper-container', {
-		      spaceBetween: 30,
-		      centeredSlides: true,
-		      autoplay: {
-		        delay: 2500,
-		        disableOnInteraction: false,
-		      },
-		      pagination: {
-		        el: '.swiper-pagination',
-		        clickable: true,
-		      }
-		    });
-
-		    var swiper2 = new Swiper('.swiper-container2', {
-		      slidesPerView: 3,
-		      spaceBetween: 5
-		    });
-        }
-    }  
+   	  	lazyImg:function(){
+					$("img.lazy").lazyload({  threshold : 50,placeholder : "img/white.gif",effect: "fadeIn"});
+				}
+    }
 
 	 $(function(){
 	    pageFun.init();

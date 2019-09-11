@@ -160,7 +160,7 @@ img{
     z-index: 1;
     background-color: #FFFAF0;
     color: #000;
-    display: none;
+   /* display: none;*/
     width: 100%;
 }
 
