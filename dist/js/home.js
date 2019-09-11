@@ -141,7 +141,7 @@ var pageFun = {
     $("img.lazy").lazyload({  threshold : 200,placeholder : "img/white.gif",effect: "fadeIn"});
   },
   swiperFun:function(){
-    var swiper1 = new Swiper('.swiper-container', {
+    var swiper1 = new Swiper('.swiper-container1', {
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
@@ -149,7 +149,7 @@ var pageFun = {
         disableOnInteraction: false,
       },
       pagination: {
-        el: '.swiper-pagination',
+        el: '.swiper-pagination1',
         clickable: true,
       }
     });
