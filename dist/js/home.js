@@ -49,7 +49,11 @@ var pageFun = {
       "img/dz/2.jpg",
       "img/dz/3.jpg",
       "img/dz/4.jpg",
-      "img/dz/5.jpg"
+      "img/dz/5.jpg",
+      "img/dz/a.jpg",
+      "img/dz/b.jpg",
+      "img/dz/c.jpg",
+      "img/dz/d.jpg"
     ];
     var imgs = [];
     for(var j=0;j<arr.length;j++){
@@ -122,18 +126,28 @@ var pageFun = {
       that.constant.status = 1;
 
       if(index == 3){
-        var swiper3 = new Swiper('.swiper-container3', {
-          slidesPerView: 3,
+        new Swiper('.swiper-container3', {
+          slidesPerView: 2,
           spaceBetween: 3,
+          autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+          }
+        });
+
+        new Swiper('.swiper-container4', {
+          spaceBetween: 30,
+          centeredSlides: true,
           autoplay: {
             delay: 3000,
             disableOnInteraction: false,
           },
           pagination: {
-          el: '.swiper-pagination3',
+            el: '.swiper-pagination4',
             clickable: true,
           }
         });
+
       }
     });
   },
