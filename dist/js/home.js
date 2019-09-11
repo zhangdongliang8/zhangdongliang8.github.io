@@ -58,7 +58,7 @@ var pageFun = {
     }
 
     setTimeout(function(){
-      var _imgArr = document.querySelectorAll(".preloadImg_cf");
+      var _imgArr = document.querySelectorAll(".preloadImg_dz");
       console.log(_imgArr);
       for(var i=0;i<arr.length;i++){
         _imgArr[i].setAttribute("src", imgs[i].src);
