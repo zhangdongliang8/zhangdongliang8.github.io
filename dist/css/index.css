@@ -1,0 +1,261 @@
+html, body {
+    position: relative;
+    height: 100%;
+}
+
+*{
+    margin: 0;padding: 0;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color:#fff;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    padding-bottom: 3px;
+}
+
+a.current{
+    border-bottom: 2px solid #fff;
+}
+
+.swiper-container {
+    width: 100%;
+    /*       height: 400px; */
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.header{
+    height: 105px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+    z-index: 100;
+}
+
+.title{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18.768px;
+    font-family: PingFangSC-Medium;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+#nowTime{
+    position:fixed;
+    bottom:10px;
+    left:30%;
+}
+
+.headerUl{
+    width: 96%;
+    height: 50px;
+    padding:0;
+    margin:0 auto;
+}
+
+.headerUl li{
+    list-style: none;
+    float: left;
+    width: 22%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.holiday-content p{
+    margin: 8px 0;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.headerTitle{
+    font-size: 22px;
+    font-weight: 400;
+    min-height:50px;
+    font-family: -apple-system-font,BlinkMacSystemFont,"Helvetica Neue","PingFang SC","Hiragino Sans GB","Microsoft YaHei UI","Microsoft YaHei",Arial,sans-serif;
+    line-height: 1.4;
+    margin: 15px auto 0;
+    text-align: center;
+}
+
+.content{
+    padding: 10px;
+}
+
+
+.holiday-content{
+    font-family: MicrosoftYaHei;
+    font-size: 16px;
+    color:#000;
+    letter-spacing: 0.62px;
+    line-height: 32px;
+    line-height: 24px;
+}
+
+.holiday-content p{
+    margin-bottom:10px;
+    text-indent: 10px;
+}
+
+.wrap{
+    position: relative;
+    z-index: 1;
+    background-color: #FFFAF0;
+}
+
+
+.wrap>div h4 {
+    font-family: SourceHanSerifCN-SemiBold;
+    font-size: 24px;
+    color: #272831;
+    letter-spacing: 1.29px;
+}
+
+.fix {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #353535;
+    opacity: 1;
+    z-index: 88888;
+}
+
+.tabClass{
+    position: relative;
+    z-index: 1;
+    background-color: #FFFAF0;
+    color: #000;
+    display: none;
+    width: 100%;
+}
+
+.defaultHeight{
+    height: 50px;
+}
+
+#gotop{
+
+    display:none;
+
+    width:55px;
+
+    height:55px;
+
+    position:fixed;
+
+    right:20px;
+
+    bottom:10px;
+
+    z-index: 999999;
+
+    background:url(img/toTop.svg) no-repeat -70px 0px;
+
+}
+
+.titleBg{
+    border: 0px solid black;
+    position: relative;
+    height: 320.16px;
+    width: 414px;
+    filter: blur(4px);
+    background-image: url(img/tBg.webp);
+    background-size: cover; background-repeat: no-repeat; background-position: center center;
+}
+
+.remark{
+    position: relative;z-index: 1;background: #fff;opacity: 0.6;padding-bottom: 10px;margin-bottom: 5px;
+}
+
+.box {text-align: center;}
+.loading {position: fixed;z-index:10000;top: 0;left: 0;width: 100%;height: 100%;text-align: center;font-size: 30px;background-color: #fff;}
+.xl-progress-wp{position: absolute;width: 300px;height: 100px;top: 60%;left: 50%;margin: -50px 0 0 -150px;}
+.xl-progress {position: relative;width: 100%;height: 16px;border-radius: 20px;background-color: #eeeeed;overflow: hidden;}
+.xl-progress__inner {position: absolute;top: 0;left: 0;height: 100%;border-radius: 20px;background-color: #f3d08c;}
+.xl-progress__txt {color: #fff;margin-top: 7px;text-align: center;}
+
+.loadingTs{
+    color:#FFF;
+    font-size: 16px;
+    position: relative;
+    top: 10%;
+}
+
+.loadingTs li{
+    text-align: left;
+    margin: 0 30px;
+    list-style: none;
+    line-height: 40px;
+}
+
+.loadingTs li span{
+    display: inline-block;
+    height:25px;
+    line-height: 25px;
+    text-indent: 30px;
+}
+
+.loadingT{
+    position: relative;
+    top: 115px;
+    font-size: 14px;
+}
+
+.gradient {
+    background: -moz-linear-gradient(top, #353535 0%, #323235 30%,#DBDBDB 80%, #ffffff 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #32375b), color-stop(100%, #ffffff));
+    background: -webkit-linear-gradient(top, #353535 0%, #323235 30%,#DBDBDB 80%, #ffffff 100%);
+    background: -o-linear-gradient(top, #353535 0%, #323235 30%, #DBDBDB 80%, #ffffff 100%);
+    background: -ms-linear-gradient(top, #353535 0%, #323235 30%, #DBDBDB 80%, #ffffff 100%);
+    background: linear-gradient(to bottom, #353535 0%, #323235 30%, #DBDBDB 80%, #ffffff 100%);
+}
+
+
+.vid-wrap{
+    width:100%;background: #000;
+    position:relative;
+    padding-bottom:56.25%;    /*需要用padding来维持16:9比例,也就是9除以16*/
+    height: 0;
+}
+.vid-wrap video{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+}
