@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab743da5-835c-4605-bbcc-7cdb0441d654" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
+            <state relative-caret-position="518">
+              <caret line="198" column="67" lean-forward="true" selection-start-line="198" selection-start-column="67" selection-end-line="198" selection-end-column="67" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -198,11 +198,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="151" column="32" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
+            <state relative-caret-position="1197">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -236,8 +236,8 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/dist/js/index.js" />
         <option value="$PROJECT_DIR$/dist/css/index.css" />
-        <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/dist/js/home.js" />
+        <option value="$PROJECT_DIR$/home.html" />
       </list>
     </option>
   </component>
@@ -329,12 +329,12 @@
       <updated>1568102441398</updated>
       <workItem from="1568102443458" duration="5327000" />
       <workItem from="1568122794883" duration="10834000" />
-      <workItem from="1568167167218" duration="9165000" />
+      <workItem from="1568167167218" duration="10148000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25326000" />
+    <option name="totallyTimeSpent" value="26309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -902,10 +902,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1197">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
+        <state relative-caret-position="518">
+          <caret line="198" column="67" lean-forward="true" selection-start-line="198" selection-start-column="67" selection-end-line="198" selection-end-column="67" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1078,13 +1085,6 @@
             <element signature="n#style#0;n#div#2;n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#2;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="151" column="32" selection-start-line="151" selection-start-column="32" selection-end-line="151" selection-end-column="32" />
         </state>
       </provider>
     </entry>
