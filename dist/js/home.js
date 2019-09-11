@@ -124,10 +124,14 @@ var pageFun = {
       if(index == 3){
         var swiper3 = new Swiper('.swiper-container3', {
           slidesPerView: 3,
-          spaceBetween: 10,
+          spaceBetween: 3,
           autoplay: {
             delay: 3000,
             disableOnInteraction: false,
+          },
+          pagination: {
+          el: '.swiper-pagination3',
+            clickable: true,
           }
         });
       }
@@ -148,11 +152,6 @@ var pageFun = {
         el: '.swiper-pagination',
         clickable: true,
       }
-    });
-
-    var swiper2 = new Swiper('.swiper-container2', {
-      slidesPerView: 3,
-      spaceBetween: 5
     });
   }
 }
