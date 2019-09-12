@@ -44,12 +44,19 @@ var pageFun = {
     });
   },
   DzImgLoad:function(){
-    var arr = [
+/*    var arr = [
       "img/dz/1.jpg",
       "img/dz/2.jpg",
       "img/dz/3.jpg",
       "img/dz/4.jpg",
       "img/dz/5.jpg",
+      "img/dz/a.jpg",
+      "img/dz/b.jpg",
+      "img/dz/c.jpg",
+      "img/dz/d.jpg"
+    ];*/
+
+    var arr = [
       "img/dz/a.jpg",
       "img/dz/b.jpg",
       "img/dz/c.jpg",
