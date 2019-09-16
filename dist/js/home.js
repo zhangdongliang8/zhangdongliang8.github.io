@@ -14,9 +14,7 @@ var pageFun = {
   preloadImg:function(){
     var imgs = [
       "img/jz/xt/lb1_1.jpg",
-      "img/jz/xt/lb1_2.jpg",
-      "img/jz/xt/lb1_3.jpg",
-      "img/jz/xt/lb1_4.jpg"
+      "img/jz/xt/lb1_2.jpg"
     ];
 
     var index = 0,
@@ -44,18 +42,6 @@ var pageFun = {
     });
   },
   DzImgLoad:function(){
-/*    var arr = [
-      "img/dz/1.jpg",
-      "img/dz/2.jpg",
-      "img/dz/3.jpg",
-      "img/dz/4.jpg",
-      "img/dz/5.jpg",
-      "img/dz/a.jpg",
-      "img/dz/b.jpg",
-      "img/dz/c.jpg",
-      "img/dz/d.jpg"
-    ];*/
-
     var arr = [
       "img/dz/a.jpg",
       "img/dz/b.jpg",
