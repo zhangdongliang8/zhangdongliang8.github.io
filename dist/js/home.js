@@ -6,7 +6,7 @@ var pageFun = {
     this.tabClick();         //tab选项切换功能
     this.lazyImg();          //图片懒加载功能
     this.swiperFun();        //图片轮播功能
-    this.DzImgLoad();        //定制家具轮播图片预加载
+    //this.DzImgLoad();        //定制家具轮播图片预加载
   },
   constant:{
     status:0
