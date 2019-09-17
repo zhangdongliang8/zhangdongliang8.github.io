@@ -13,8 +13,8 @@ var pageFun = {
   },
   preloadImg:function(){
     var imgs = [
-      "img/jz/xt/lb1_1.jpg",
-      "img/jz/xt/lb1_2.jpg"
+      "img/jz/small/lb1_1.jpg",
+      "img/jz/small/lb1_2.jpg"
     ];
 
     var index = 0,
@@ -60,7 +60,7 @@ var pageFun = {
       for(var i=0;i<arr.length;i++){
         _imgArr[i].setAttribute("src", imgs[i].src);
       }
-    },5000);
+    },7000);
   },
   scrollFixHeader:function(){
     var that = this;
