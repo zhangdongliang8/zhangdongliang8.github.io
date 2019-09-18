@@ -39,7 +39,7 @@ var pageFun = {
     $.preload(imgs, {
       // 是否有序加载
       order: false,
-      minTimer: 3000,
+      minTimer: 2000,
       //每加载完一张执行的方法
       each: function (count) {
         var percent = Math.round((count+1) / len * 100) + '%';
@@ -158,7 +158,7 @@ var pageFun = {
     });
   },
   lazyImg:function(){
-    $("img.lazy").lazyload({  threshold : 200,placeholder : "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==",effect: "fadeIn"});
+    $("img.lazy").lazyload({  threshold : 500,placeholder : "data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==",effect: "fadeIn"});
   },
   swiperFun:function(){
     var swiper1 = new Swiper('.swiper-container1', {

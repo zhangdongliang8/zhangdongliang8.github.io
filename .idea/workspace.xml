@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab743da5-835c-4605-bbcc-7cdb0441d654" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/js/home.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="home.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dist/js/home.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="107" column="7" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
+            <state relative-caret-position="223">
+              <caret line="160" column="43" selection-start-line="160" selection-start-column="43" selection-end-line="160" selection-end-column="43" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -38,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
@@ -100,8 +100,8 @@
         <option value="$PROJECT_DIR$/dist/js/swiper.min.js" />
         <option value="$PROJECT_DIR$/dist/css/index.css" />
         <option value="$PROJECT_DIR$/dist/js/jquery.min.js" />
-        <option value="$PROJECT_DIR$/dist/js/home.js" />
         <option value="$PROJECT_DIR$/home.html" />
+        <option value="$PROJECT_DIR$/dist/js/home.js" />
       </list>
     </option>
   </component>
@@ -211,25 +211,25 @@
       <workItem from="1568256575538" duration="1107000" />
       <workItem from="1568639875052" duration="5229000" />
       <workItem from="1568684198941" duration="3069000" />
-      <workItem from="1568787005482" duration="5294000" />
+      <workItem from="1568787005482" duration="5926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51714000" />
+    <option name="totallyTimeSpent" value="52346000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13909379" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13909379" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28494042" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28494042" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -637,16 +637,6 @@
     <entry file="file://$PROJECT_DIR$/img/jz/c5.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/js/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="107" column="7" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -667,6 +657,16 @@
             <element signature="n#style#0;n#img#4;n#div#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#6;n#div#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#7;n#div#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/js/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="160" column="43" selection-start-line="160" selection-start-column="43" selection-end-line="160" selection-end-column="43" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
