@@ -26,7 +26,7 @@ var pageFun = {
   },
   preloadImg:function(){
     var imgs = [
-      "img/jz/small/lb1_1.jpg",
+      "img/jz/small/lb1_4.jpg",
       "img/jz/small/lb1_2.jpg"
     ];
 
