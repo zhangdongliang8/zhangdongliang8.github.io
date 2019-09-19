@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab743da5-835c-4605-bbcc-7cdb0441d654" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dzjj.html" beforeDir="false" afterPath="$PROJECT_DIR$/dzjj.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home3.html" beforeDir="false" afterPath="$PROJECT_DIR$/home3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house.html" beforeDir="false" afterPath="$PROJECT_DIR$/house.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/480_360/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/480_360/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/480_360/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/480_640/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/480_640/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/5d82007c83db6/g1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/5d82007c83db6/g2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/5d82007c83db6/g3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/5d82007c83db6/g4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/5d82007c83db6/g5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/5d82007c83db6/g6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gz/yasuotu.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kitchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/kitchen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/shop.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -56,10 +37,11 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="157" column="77" selection-start-line="157" selection-start-column="77" selection-end-line="157" selection-end-column="77" />
+            <state relative-caret-position="186">
+              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -227,12 +209,12 @@
       <workItem from="1568799232939" duration="636000" />
       <workItem from="1568814155511" duration="2799000" />
       <workItem from="1568857593569" duration="1293000" />
-      <workItem from="1568876377631" duration="1631000" />
+      <workItem from="1568876377631" duration="1890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61246000" />
+    <option name="totallyTimeSpent" value="61505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -2545,10 +2527,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="157" column="77" selection-start-line="157" selection-start-column="77" selection-end-line="157" selection-end-column="77" />
+        <state relative-caret-position="186">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#3;n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#2;n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
