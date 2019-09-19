@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab743da5-835c-4605-bbcc-7cdb0441d654" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/d9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/g1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/g2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/g3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/g4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/g5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/g6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/g7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/g8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/s12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/s13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/s14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/jz/s15.jpg" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -64,8 +37,8 @@
       <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1062">
-              <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+            <state relative-caret-position="551">
+              <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
                 <element signature="e#28428#28434#0" expanded="true" />
@@ -153,6 +126,12 @@
                 <element signature="e#33341#33347#0" expanded="true" />
                 <element signature="e#33347#33353#0" expanded="true" />
                 <element signature="e#33353#33359#0" expanded="true" />
+                <element signature="e#33797#33803#0" expanded="true" />
+                <element signature="e#33803#33809#0" expanded="true" />
+                <element signature="e#33809#33815#0" expanded="true" />
+                <element signature="e#33815#33821#0" expanded="true" />
+                <element signature="e#33821#33827#0" expanded="true" />
+                <element signature="e#33827#33833#0" expanded="true" />
                 <element signature="e#32639#32645#0" expanded="true" />
                 <element signature="e#32645#32651#0" expanded="true" />
                 <element signature="e#32651#32657#0" expanded="true" />
@@ -165,12 +144,6 @@
                 <element signature="e#34040#34046#0" expanded="true" />
                 <element signature="e#34046#34052#0" expanded="true" />
                 <element signature="e#34052#34058#0" expanded="true" />
-                <element signature="e#34884#34890#0" expanded="true" />
-                <element signature="e#34890#34896#0" expanded="true" />
-                <element signature="e#34896#34902#0" expanded="true" />
-                <element signature="e#34902#34908#0" expanded="true" />
-                <element signature="e#34908#34914#0" expanded="true" />
-                <element signature="e#34914#34920#0" expanded="true" />
                 <element signature="e#36011#36017#0" expanded="true" />
                 <element signature="e#36017#36023#0" expanded="true" />
                 <element signature="e#36023#36029#0" expanded="true" />
@@ -400,12 +373,12 @@
       <workItem from="1568857593569" duration="1293000" />
       <workItem from="1568876377631" duration="2534000" />
       <workItem from="1568883885379" duration="1958000" />
-      <workItem from="1568894087291" duration="1422000" />
+      <workItem from="1568894087291" duration="2153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65529000" />
+    <option name="totallyTimeSpent" value="66260000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -418,7 +391,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.30119178" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21776815" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -774,8 +747,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1062">
-          <caret line="172" column="16" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
+        <state relative-caret-position="551">
+          <caret line="190" column="22" selection-start-line="190" selection-start-column="22" selection-end-line="190" selection-end-column="22" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
             <element signature="e#28428#28434#0" expanded="true" />
@@ -863,6 +836,12 @@
             <element signature="e#33341#33347#0" expanded="true" />
             <element signature="e#33347#33353#0" expanded="true" />
             <element signature="e#33353#33359#0" expanded="true" />
+            <element signature="e#33797#33803#0" expanded="true" />
+            <element signature="e#33803#33809#0" expanded="true" />
+            <element signature="e#33809#33815#0" expanded="true" />
+            <element signature="e#33815#33821#0" expanded="true" />
+            <element signature="e#33821#33827#0" expanded="true" />
+            <element signature="e#33827#33833#0" expanded="true" />
             <element signature="e#32639#32645#0" expanded="true" />
             <element signature="e#32645#32651#0" expanded="true" />
             <element signature="e#32651#32657#0" expanded="true" />
@@ -875,12 +854,6 @@
             <element signature="e#34040#34046#0" expanded="true" />
             <element signature="e#34046#34052#0" expanded="true" />
             <element signature="e#34052#34058#0" expanded="true" />
-            <element signature="e#34884#34890#0" expanded="true" />
-            <element signature="e#34890#34896#0" expanded="true" />
-            <element signature="e#34896#34902#0" expanded="true" />
-            <element signature="e#34902#34908#0" expanded="true" />
-            <element signature="e#34908#34914#0" expanded="true" />
-            <element signature="e#34914#34920#0" expanded="true" />
             <element signature="e#36011#36017#0" expanded="true" />
             <element signature="e#36017#36023#0" expanded="true" />
             <element signature="e#36023#36029#0" expanded="true" />
