@@ -13,8 +13,8 @@ var pageFun = {
   },
   preloadImg:function(){
     var imgs = [
-      "img/jz/small/lb1_4.jpg",
-      "img/jz/small/lb1_2.jpg"
+      "img/jz/lb1_4.jpg",
+      "img/jz/lb1_2.jpg"
     ];
 
     var index = 0,
